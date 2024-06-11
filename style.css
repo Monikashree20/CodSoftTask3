@@ -1,0 +1,40 @@
+input{
+    text-align: right;
+    width: 255px;
+    height: 30px;
+    font-size: 30px;
+}
+.button,.operator{
+    width: 55px;
+    height: 55px;
+    border-radius: 36px;
+    font-size: 20px;
+    box-shadow: 5px gray;
+    margin-right: 10px;
+    cursor: pointer;
+}
+body{
+    
+    padding: 50px;
+    border-radius: 20px;
+    display: inline-block;
+    text-align: center;
+    margin-left: 550px;
+    margin-top: 50px;
+    background-color: #808080;
+}
+.calci{
+    border: 2px solid black;
+    background-color: #d3d3d3;
+    padding: 50px;
+    border-radius: 20px;
+
+}
+.button:hover{
+    color: black;
+    background-color: gray;
+}
+.operator:hover{
+    color: black;
+    background-color: gray;
+}
